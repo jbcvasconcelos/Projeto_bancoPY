@@ -3,9 +3,10 @@
 Um projeto simples de sistema bancário desenvolvido em **Python**, utilizando a biblioteca nativa **Tkinter** para criar uma interface gráfica amigável e interativa no Windows.
 
 ---
-Integrantes Da Equipe:
-José Bruno
-Gibson Rocha
+# Integrantes Da Equipe:
+
+*José Bruno,
+*Gibson Rocha
 
 ## 📌 Funcionalidades
 
