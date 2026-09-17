@@ -1,34 +1,65 @@
-# 🏦 Sistema Bancário em Python com Interface Gráfica
+# 🏦 JGBANK - Projeto ByteBank
 
-Um projeto simples de sistema bancário desenvolvido em **Python**, utilizando a biblioteca nativa **Tkinter** para criar uma interface gráfica amigável e interativa no Windows.
+## Cesar School
+
+### Alunos:
+- Gibson Rocha
+- José Bruno
+
+Sistema bancário em **Python** com interface gráfica em **Tkinter**, desenvolvido como evolução do projeto ByteBank no nível 2, com foco em múltiplas contas, transferências PIX, caixinhas, cartão de crédito, câmbio, BytePoints e empréstimos.
 
 ---
 
-## 📌 Funcionalidades
+## 📌 Funcionalidades implementadas
 
-O aplicativo conta com um menu interativo e botões diretos para as seguintes operações bancárias:
-
-- **`[1] Consulta de saldo`**: Exibe uma mensagem pop-up com o saldo atual do cliente.
-- **`[2] Depósito`**: Permite adicionar valores ao saldo (valida valores positivos).
-- **`[3] Sacar`**: Permite realizar retiradas de dinheiro (valida se há saldo suficiente).
-- **`[0] Sair`**: Encerra a execução do aplicativo.
+- Cadastro de clientes
+- Consulta de conta por número
+- Depósito em conta
+- Saque com validação de saldo
+- Transferência PIX entre clientes
+- Caixinhas / cofrinhos com guardar e resgatar
+- Relatório de gastos por categoria
+- Cartão de crédito com limite e fatura
+- Carteira multimoedas com conversão em BRL
+- Sistema de fidelidade BytePoints e cashback
+- Empréstimos pré-aprovados com parcelamento
+- Interface gráfica em tema laranja e branco com nome JGBANK
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **[Python 3](https://www.python.org/)** — Linguagem principal do projeto.
-- **[Tkinter](https://docs.python.org/3/library/tkinter.html)** — Interface gráfica nativa (GUI).
+- **[Python 3](https://www.python.org/)**
+- **[Tkinter](https://docs.python.org/3/library/tkinter.html)**
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🚀 Como executar
 
 ### Pré-requisitos
-Certifique-se de ter o **Python 3.x** instalado em seu computador.
+- Python 3 instalado
 
 ### Passo a passo
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/jbcvasconcelos/Projeto_bancoPY.git](https://github.com/jbcvasconcelos/Projeto_bancoPY.git)
+1. Abra o terminal na pasta do projeto.
+2. Execute:
+
+```bash
+python main.py
+```
+
+3. A interface gráfica do JGBANK será aberta.
+
+---
+
+## 📁 Arquivos do projeto
+
+- `main.py` — ponto de entrada do programa
+- `interface.py` — interface gráfica
+- `banco.py` — regras e dados do sistema bancário
+
+---
+
+## 🧑‍💻 Descrição do projeto
+
+Este projeto foi desenvolvido como evolução do projeto ByteBank, contemplando conceitos de estruturas de dados, dicionários, listas, condicionais, repetições e lógica financeira aplicada ao contexto bancário. O sistema foi pensado para simular operações reais de uma conta bancária em uma interface simples e funcional.
